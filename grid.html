@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100vh;
+            display: grid;
+            background-color: green;
+            border: red 1px solid;
+            grid-template-columns: 1fr 1fr 1fr 1fr  1fr ;
+            grid-template-areas: 'a b b b b '
+            'a c c c  d'
+            'a e e e e '
+            'a f f f g'
+            'h h h h h'
+             ;
+            
+        }
+        .item{
+            border: red 2px solid;
+            text-align: center;
+            padding-top: 4em;
+            font-size: larger;
+            font-family: cursive;
+        }
+        .item1{
+            grid-area: a;
+            background-color: blue;
+            /* height: 200px; */
+            /* width: 200px; */
+            
+        }
+        .item2{
+            grid-area: b;
+            background-color: white;
+            /* height: 200px; */
+            /* width: 200px; */
+            
+        }
+        .item3{
+            grid-area: c;
+            background-color: yellow;
+            /* height: 200px; */
+            /* width: 200px; */
+        }
+        .item4{
+            grid-area: d;
+            background-color: brown;
+            /* height: 200px; */
+            /* width: 200px; */
+        }
+        .item5{
+            grid-area: e;
+            background-color: rgb(228, 21, 183);
+            /* height: 200px; */
+            /* width: 200px; */
+        }
+        .item6{
+            grid-area: f;
+            background-color: rgb(94, 11, 94);
+            /* height: 200px; */
+            /* width: 200px; */
+        }
+        .item7{
+            grid-area: g;
+            
+            /* height: 200px; */
+            /* width: 200px; */
+        }
+        .item8{
+            grid-area: h;
+            background-color: aqua;
+            /* height: 200px; */
+            /* width: 200px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="item1 item">Iam Python Developer</div>
+        <div class="item2 item">Iam Python Developer</div>
+        <div class="item3 item">Iam Python Developer</div>
+        <div class="item4 item">Iam Python Developer</div>
+        <div class="item5 item">Iam Python Developer</div>
+        <div class="item6 item">Iam Python Developer</div>
+        <div class="item7 item">Iam Python Developer</div>
+        <div class="item8 item">Iam Python Developer</div>
+    </div>
+</body>
+</html>
