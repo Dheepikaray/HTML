@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class A {
+    area(x, y) {
+        document.write(x * y,
+         '<br>');
+    }
+}
+class B extends A {
+    area(a, b) {
+        super.area(a, b);
+        document.write('Class B')
+    }
+}
+let ob = new B();
+ob.area(10, 20);
+    </script>
+</body>
+</html>

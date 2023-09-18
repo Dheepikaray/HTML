@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+<body>
+    <!--1. tostring-->
+
+   <!-- <p id="demo"></p>
+    <script>
+        var colors=['orange','white','black','red','blue'];
+        document.getElementById("demo").innerHTML = colors.toString();
+    </script>-->
+
+    <!--2.join()-->
+
+    <!--<p id="demo"></p>
+    <script>
+        const colors = ["orange","red","pink","peach"];
+        document.getElementById("demo").innerHTML = colors.join(".");
+    </script>-->
+
+    <!--3.Pop-->
+
+    <!--<p id="demo1"></p>
+    <p id="demo2"></p>
+    <script>
+        const colors = ["orange","green","yellow","red"];
+        document.getElementById("demo1").innerHTML = colors;
+            //colors.pop();
+                //delete colors[1];
+            colors.splice(1,1);
+        document.getElementById("demo2").innerHTML = colors;
+    </script>-->
+
+    <!--4.Push-->
+
+    <!--<p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <script>
+        const colors = ["orange","green","blue","red"];
+        document.getElementById("demo1").innerHTML = colors;
+            //colors.push("white");
+            colors.splice(1,1,"pink","white");
+            
+        document.getElementById("demo2").innerHTML = colors;
+    </script>-->
+
+    <!--5.slice-->
+
+    <!--<script>
+        var colors=["orange","blue","green","red"];
+       document.write(colors.slice(2)+"<br>");
+        document.write(colors);
+    </script>-->
+
+    <p id="demo"></p>
+
+    <!--<script>
+        var colors=["orange","blue","green","red"];
+        document.getElementById("demo").innerHTML = colors.reverse();
+        document.gtElementById("demo").innerHTML = colors.sort();
+    </script>-->
+
+    <script>
+        const ages = [32,333,34,36];
+        document.getElementById("demo").innerHTML = ages.filter(checkAdult);
+
+        function checkAdult(age)
+        {
+            return age>=18;
+        }
+    </script>
+
+
+
+</body>
+</html>

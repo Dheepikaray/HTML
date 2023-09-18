@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Brand
+        {
+            constructor()
+            {
+                this.company="Honda";
+            }
+        }
+        class Vehicle extends Brand
+        {
+            constructor(name,price)
+            {
+                super();
+                this.name=name;
+                this.price=price;
+            }
+        }
+        var a = new Vehicle("Discover", "100000");
+        document.write(a.company+" "+a.name+" "+a.price);
+    </script>
+</body>
+</html>
